@@ -2,7 +2,7 @@
   position: absolute;
   top: 25%;
   left: 35%;
-  transition: 1.5s;
+  transition: 2s;
   text-align: center;
 }
 
@@ -48,6 +48,7 @@ input {
 .goUp {
   position: absolute;
   top: 10%;
-  left: 35%
-  transition: 1.5s;
+  left: 35%;
+  transition: 1s;
+  text-align: center;
 }

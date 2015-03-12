@@ -18,11 +18,11 @@
 <body>
   <!-- Search Controller -->
   <div id="searchWrapper" ng-controller="SearchController as searchCtrl">
-    <header class="center" ng-Class="[style]">
+    <header ng-Class="[style]">
       <img id="logo" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
       <form name="searchForm">
         <div id="searchBox">
-          <input ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
+          <input ng-enter="animate()" ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
         </div>
       </form>
       <div>
