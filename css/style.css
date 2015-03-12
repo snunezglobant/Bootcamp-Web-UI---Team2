@@ -1,0 +1,50 @@
+/* Centering Things */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+.cover {
+  width: 30px;
+  height: 30px;
+  display: inline-block;    
+}
+
+.query {
+  color: grey;
+}
+
+#artistsFound {
+  /* display: none; */
+  float: left;
+  text-align: left;
+  font-weight: bold;
+  width: 50%;
+  height: auto;
+  /* margin: 1rem; */
+}
+
+#albumsFound {
+  /* display: none; */
+  float: right;
+  text-align: left;
+  font-weight: bold;
+  width: 50%;
+  height: auto;
+  /*  margin: 1rem; */
+}
+
+body {
+  padding: 2rem;
+  height: 100%;
+  overflow: hidden;
+}
+
+#logo {
+  display: block;
+}
+
+#search {
+  display: block;
+}
