@@ -15,7 +15,7 @@
     <div id="container">            
       <ul>
         <li> <p>Name: {{album.name}} </p> </li>
-        <li > Artist(s): {{album.artists.name}} </li>  
+        <li ng-repeat="artist in album.artists"> Artist(s): {{artist.name}}</li>  
         <li>Genre: 
           <div ng-if="album.genres.length=='0'">
             Genre not found
