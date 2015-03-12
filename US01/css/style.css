@@ -1,8 +1,7 @@
-/* Centering Things */
 .center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 30rem;
+  position: absolute;
+  top: 25%;
+  left: 35%;
 }
 
 .cover {
@@ -16,7 +15,6 @@
 }
 
 #artistsFound {
-  /* display: none; */
   float: left;
   text-align: left;
   font-weight: bold;
@@ -25,7 +23,6 @@
 }
 
 #albumsFound {
-  /* display: none; */
   float: right;
   text-align: left;
   font-weight: bold;
@@ -37,14 +34,6 @@ body {
   padding: 2rem;
   height: 100%;
   overflow: hidden;
-}
-
-#logo {
-  display: block;
-}
-
-#search {
-  display: block;
 }
 
 input {

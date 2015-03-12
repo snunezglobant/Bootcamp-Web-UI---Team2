@@ -17,43 +17,40 @@
 
 </head>
 <body>
-  
-    <header>
-      <img id="logo" class="center animated bounceIn" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
-    </header>
-
-    <!-- Search Controller -->
-    <section id="search" ng-controller="SearchController as searchCtrl">
-      <form name="searchForm" class="center">
+  <!-- Search Controller -->
+  <div id="searchWrapper" ng-controller="SearchController as searchCtrl">
+    <header class="center animated bounceIn">
+      <img id="logo" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
+      <form name="searchForm">
         <div id="searchBox">
           <input ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
         </div>
       </form>
+      <div>
+        <h3>Results for <span class="query">{{ query }}</span></h3>
+      </div>
+    </header>      
 
-      <section id="results">
-        <div class="center">
-          <h3>Results for <span class="query">{{ query }}</span></h3>
+    <section id="results">
+      <section id="artistsFound" ng-show="results.artists.items">
+        <h3>Artists that match <span class="query">{{ query }}</span></h3>
+        <div ng-repeat="result in results.artists.items">
+          {{ result.name }}
+          <img ng-src="{{result.images[0].url}}" class="cover">
         </div>
-
-        <section id="artistsFound" ng-show="results.artists.items">
-          <h3>Artists that match <span class="query">{{ query }}</span></h3>
-          <div ng-repeat="result in results.artists.items">
-            {{ result.name }}
-            <img ng-src="{{result.images[0].url}}" class="cover">
-          </div>
-        </section>
-
-        <section id="albumsFound" ng-show="results.albums.items">
-          <h3>Albums that match <span class="query">{{ query }}</span></h3>
-          <div ng-repeat="result in results.albums.items">
-            {{ result.name }}
-            <img ng-src="{{result.images[0].url}}" class="cover">
-          </div>
-        </section>
       </section>
-    </section>
-    <!-- End of Search Controller -->
 
-  
+      <section id="albumsFound" ng-show="results.albums.items">
+        <h3>Albums that match <span class="query">{{ query }}</span></h3>
+        <div ng-repeat="result in results.albums.items">
+          {{ result.name }}
+          <img ng-src="{{result.images[0].url}}" class="cover">
+        </div>
+      </section>
+
+    </section>    
+  </div>
+  <!-- End of Search Controller -->
+
 </body>
 </html>
