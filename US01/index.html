@@ -9,7 +9,6 @@
   <title>Music Search! | Web UI Bootcamp Project | Globant 2015</title>
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
@@ -19,7 +18,7 @@
 <body>
   <!-- Search Controller -->
   <div id="searchWrapper" ng-controller="SearchController as searchCtrl">
-    <header class="center animated bounceIn">
+    <header class="center" ng-Class="[style]">
       <img id="logo" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
       <form name="searchForm">
         <div id="searchBox">
