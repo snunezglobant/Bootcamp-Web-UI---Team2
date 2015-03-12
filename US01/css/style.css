@@ -22,7 +22,6 @@
   font-weight: bold;
   width: 50%;
   height: auto;
-  /* margin: 1rem; */
 }
 
 #albumsFound {
@@ -32,7 +31,6 @@
   font-weight: bold;
   width: 50%;
   height: auto;
-  /*  margin: 1rem; */
 }
 
 body {
@@ -47,4 +45,11 @@ body {
 
 #search {
   display: block;
+}
+
+input {
+  font-size: 1.6rem;
+  border-radius: 0.2rem;
+  font-family: Verdana;
+  color: green;
 }
