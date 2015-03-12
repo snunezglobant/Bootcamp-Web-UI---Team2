@@ -9,21 +9,30 @@
   <title>Your selected album</title>
 </head>
 <body>
-  
 
+  <div id ="contentalbum" ng-controller="DataController as data">
+    <h3>#Your selected album</h3>
+    <div id="container">            
+      <ul>
+        <li> <p>Name: {{album.name}} </p> </li>
+        <li > Artist(s): {{album.artists.name}} </li>  
+        <li>Genre: 
+          <div ng-if="album.genres.length=='0'">
+            Genre not found
+          </div>          
+          <div ng-if="album.genres.length!='0'">
+            {{album.genres}}}
+          </div>    
 
-      <div id ="contentalbum" ng-controller="DataController as data">
-        <h3>#Your chose album</h3>
-          <div id="container">            
-            <ul>
-              <li> <p>Name: {{album.name}} </p> </li>
-              <li> <p>Artist(s): {{album.items.artists.name}}</p></li>
-              <li> <img id="image" ng-src="{{album.images[0].url}}" alt=""> </li>
-            </ul>            
-          </div>
-      </div> 
+        </li>
+        <li> <img id="image" ng-src="{{album.images[0].url}}" alt=""> </li>
+        <li> Popularity: {{album.popularity}} </li>
+        <li>Release date: {{album.release_date | date}}</li>
+      </ul>            
+    </div>
+  </div> 
 
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
-      <script src="js/app.js"></script>  
-  </body>
-  </html>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
+  <script src="js/app.js"></script>  
+</body>
+</html>

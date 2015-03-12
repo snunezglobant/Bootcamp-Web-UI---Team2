@@ -6,10 +6,8 @@
         $http.get('https://api.spotify.com/v1/albums/7a1dlwArQK6OCHkr2SNlZR').
           success(function(response) {
             $scope.album= response;
-            $scope.artist= ;
-            $scope.genres=response.genres;
-            console.log(response.items.artists.name[0]);
-            
+            $cope.avoid="[ ]";
+               
           });      
   });
 })();

@@ -32,7 +32,7 @@ list-style-type: none;
 
 #contentalbum,#container{
 	display: inline-block;
-	float: center;
+	float: left;
 	text-align: left;
 	font-weight: bold;
 	
