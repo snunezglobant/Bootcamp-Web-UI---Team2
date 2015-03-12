@@ -14,9 +14,9 @@
     <h3>#Your selected album</h3>
     <div id="container">            
       <ul>
-        <li> <p>Name: {{album.name}} </p> </li>
-        <li ng-repeat="artist in album.artists"> Artist(s): {{artist.name}}</li>  
-        <li>Genre: 
+        <li ng-repeat="artist in album.artists"> <b>Artist(s):</b> {{artist.name}}</li>  
+        <li> <p><b>Name:</b>{{album.name}} </p> </li>        
+        <li><b>Genre</b>: 
           <div ng-if="album.genres.length=='0'">
             Genre not found
           </div>          
@@ -26,7 +26,7 @@
 
         </li>
         <li> <img id="image" ng-src="{{album.images[0].url}}" alt=""> </li>
-        <li> Popularity: {{album.popularity}} </li>
+        <li><b> Popularity: </b> {{album.popularity}} </li>
         <li>Release date: {{album.release_date | date}}</li>
       </ul>            
     </div>

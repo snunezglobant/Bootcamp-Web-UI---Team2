@@ -30,16 +30,22 @@ list-style-type: none;
 
 }
 
-#contentalbum,#container{
-	display: inline-block;
-	float: left;
-	text-align: left;
-	font-weight: bold;
-	
+#contentalbum{
+	background-color: black;
+	border-color: white;
+	opacity: 0.85;
+
+
 }
 
-#contentalbum:active{
-	opacity: 0.85
+#contentalbum{
+	display: inline-block;
+	float: center;
+	text-align: justify;
+	font-weight: normal;
+	color: white;
+	position: relative;
+	width: 40rem;
 }
 
 #alresult{
@@ -58,6 +64,17 @@ list-style-type: none;
 
 #image { 
    
-   width: 30%; 
+   width: 32.5%; 
+   margin: -9.7rem 10rem 0rem -10rem;
+   float: right;
 }
 
+@media (max-width: 34.28571428571429rem) {
+	#image{
+		margin-top: 0.5rem;
+		height:50%;
+	}
+	#contentalbum{
+
+	}
+}
