@@ -22,7 +22,7 @@
       <img id="logo" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
       <form name="searchForm">
         <div id="searchBox">
-          <input ng-enter="animate()" ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
+          <input ng-enter="animate(); request(query)" ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
         </div>
       </form>
       <div>

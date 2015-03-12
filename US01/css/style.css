@@ -16,20 +16,28 @@
   color: grey;
 }
 
+#results {
+  position: absolute;
+  top: 50%;
+  text-align: center; 
+}
+
 #artistsFound {
   float: left;
   text-align: left;
   font-weight: bold;
-  width: 50%;
+  width: auto;
   height: auto;
+  overflow: scroll;
 }
 
 #albumsFound {
   float: right;
   text-align: left;
   font-weight: bold;
-  width: 50%;
+  width: auto;
   height: auto;
+  overflow: scroll;
 }
 
 body {

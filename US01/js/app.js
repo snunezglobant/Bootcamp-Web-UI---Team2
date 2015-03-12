@@ -2,9 +2,7 @@
   var app = angular.module('spotifyApp', []);
 
   app.controller('SearchController', function($http, $scope) {
-
-    $scope.$watch('query', function(newVal) {
-      $scope.results = [];
+    $scope.results = [];
     // Setting the default value of the Class.
     $scope.style= 'center';
 
@@ -12,13 +10,14 @@
       $scope.style = 'goUp';
     };
 
-    if (newVal) {    
-      $http.get('https://api.spotify.com/v1/search?q='+newVal+'&type=artist,album').success(function(data) {
-        $scope.results = data;
-      });
-    }
+    $scope.request = function( query ) {
+      $http.get('https://api.spotify.com/v1/search?q='+query+'&type=artist,album').success(function(data) {
+          $scope.results = data;
+        });
+    };
+
+  /* End of SearchController */
   });
-});
 
   app.directive('ngEnter', function () {
     return function (scope, element, attrs) {
@@ -31,7 +30,8 @@
         }
       });
     };
+    /* End of ngEnter directive */
   });
 
-  /* End of the World */
+/* End of the World */
 })();
