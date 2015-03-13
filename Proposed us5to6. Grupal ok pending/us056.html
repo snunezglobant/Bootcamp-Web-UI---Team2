@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spotifyApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+    <title>Searchify | Web UI Bootcamp Project | Globant 2015</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="lobster">Searchify</h1>
+      <h2 class="raleway">Where people meets music.</h2>
+    </header>
+    <span>
+      <section id ="contentalbum" ng-controller="DataController as data">
+        <h2>#Your selected album</h2>
+        <div id="container">
+          <ul>
+            <li>
+              <b>Name:</b> {{album.name}} 
+            </li>
+            <div ng-repeat="artist in album.artists">
+              <li > <b>Artist(s):</b> {{artist.name}} </li>
+            </div>
+            <li>
+              <b>Genre:</b> 
+              <div ng-if="album.genres.length=='0'"> 
+                Genre not found
+              </div>
+              <div ng-if="album.genres.length!='0'">
+                {{album.genres}}}
+              </div>
+            </li>
+            <li> <img id="image" ng-src="{{album.images[0].url}}" alt=""> </li>
+            <li><b> Popularity:</b> {{album.popularity}} </li>
+            <li><b>Release date: </b>{{album.release_date | date}}</li>
+          </ul>
+        </div>
+      </section>
+      <section  id="trackcontent"ng-controller="TrackListCtrl">
+        <h2>Track List:</h2>
+        <ul ng-repeat="track in tracks.items">
+          <li>
+            <p>{{track.track_number}}) {{track.name}} - {{track.duration_ms | date : 'mm:ss'}}  - Disc:{{track.disc_number}} </p>
+          </li>
+        </ul>
+      </section>
+    </span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
+    <script src="lib/js/app.js"></script>  
+  </body>
+</html>

@@ -1,0 +1,90 @@
+html{
+  color:black;
+  font-size: 1rem;
+}
+body{
+  background: URL("../img/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.cover {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: inline-block;    
+}
+
+h3.raleway {
+text-align: center;
+color: #7F8C8D;
+}
+
+ul{
+list-style-type: none;
+}
+
+
+.lobster {
+font-family: 'Lobster', cursive;
+font-size: 70px;
+color: #27AE60;
+}
+
+.raleway {
+font-family: 'Raleway', sans-serif;
+color: #01AEA1;
+}
+
+#contentalbum{
+  border-color: black;
+  opacity: 0.85;
+  display: inline-block;
+  float: left;
+  text-align: justify;
+  position: relative;
+  width: 40rem;
+}
+
+#alresult{
+  color:red;
+}
+
+#trackcontent{
+  float: center;
+  right: -200rem;
+}
+
+
+#alresult:hover{
+  color: orange;
+}
+#artresult:hover{
+  color: orange;
+}
+
+#ng-repeat{
+  font-weight: bold;
+}
+
+#image { 
+   
+   width: 32.5%; 
+   margin: -7.5rem 10rem 0rem -10rem;
+   float: right;
+}
+
+@media (max-width:34.28571428571429rem) {
+  #image{
+    width: 25%;
+    margin: -8rem 14rem 0rem -10rem;;
+    float: right;
+  }
+  #contentalbum{
+
+  }
+}
+
+
+#trackcontent{
+  display: inline-block;
+  
+}
