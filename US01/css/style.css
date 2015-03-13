@@ -1,3 +1,7 @@
+#searchWrapper {
+  height: 100%;
+}
+ 
 .center {
   position: absolute;
   top: 25%;
@@ -5,27 +9,38 @@
   transition: 2s;
   text-align: center;
 }
-
+ 
+.goUp {
+  top: 0;
+  left: 35%;
+  transition: 1s;
+} 
+ 
 input {
-  font-size: 1.6rem;
+  width: 263px;
+  font-size: 1.5rem;
   border-radius: 0.2rem;
   font-family: Verdana;
   color: green;
-}
-
-.goUp {
-  position: absolute;
-  top: 10%;
-  left: 35%;
-  transition: 1s;
   text-align: center;
-} 
-
-/* Bootcamp Topic 0 - Exercise 2 */
-html  {
-  background-color: #fff;
+  background-color: #D2E2D8;
+}
+ 
+.lobster {
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  color: #27AE60;
 }
 
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  color: #01AEA1;
+}
+
+html  {
+  background-color: #ECF0F1;
+}
+ 
 *, *:before, *:after {
  padding: 0;
  margin: 0;
@@ -37,9 +52,12 @@ html  {
   display: block;
   float: left;
   width: 100%;
-  padding: 8px;
+  height: 0;
+  box-sizing: border-box;
+  top: 250px;
+  position: absolute;
 }
-
+ 
 .gallery-grid.columns {
   margin-right: 0;
 }
@@ -54,10 +72,7 @@ html  {
   position: relative;
   float: left;
 }
-/* .one-third:last-of-type {
-  margin-right: 0;
-} */
-
+ 
 .one-half {
   width: -ms-calc(50% - 16px);
   width: -moz-calc(50% - 16px);
@@ -68,23 +83,14 @@ html  {
   position: relative;
   float: right;
 }
-
-.sup-grid img {
-  clear: both;
-  float: left;
+ 
+ .gallery-grid img {
   width: 100%;
-  position: relative;
-  height: auto;
-}
-
-.gallery-grid img {
-  width: 100%;
-  height: auto;
+  height: 100%;
   position: relative;
   float: left;
 }
 
-.gallery-grid a {
-  display: block;
+.form-control {
+  margin: 10px;
 }
-

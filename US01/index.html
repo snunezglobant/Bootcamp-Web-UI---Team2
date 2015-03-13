@@ -1,55 +1,58 @@
 <!-- Team 2 (Rocks!) : | Gabriel Masclef | Rodrigo Bazán | Gonzalo Roncedo | Juan Pablo Navarro | -->
-
+ 
 <!DOCTYPE html>
 <html lang="en" ng-app="spotifyApp">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Music Search! | Web UI Bootcamp Project | Globant 2015</title>
-
+  <title>Searchify | Web UI Bootcamp Project | Globant 2015</title>
+ 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>  
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
   <script src="js/app.js"></script>
-
+ 
 </head>
 <body>
   <!-- Search Controller -->
   <div id="searchWrapper" ng-controller="SearchController as searchCtrl">
-    <header ng-Class="[style]">
-      <img id="logo" src="img/logo.png" alt="Music Search Logo" title="Music Search!">
+    <header class='center' ng-class="{goUp: query}">
+      <h1 class="lobster">Searchify</h1>
+      <h2 class="raleway">Where people meets music.</h2>
       <form name="searchForm">
-        <div id="searchBox">
-          <input ng-enter="animate(); request(query)" ng-model="query" name="input" type="text" class="form-control" placeholder="Enter an album or artist"/>
+        <div id="searchBox">          
+          <input ng-model="query" ng-change="request()" name="input" type="text" class="form-control raleway" placeholder="Enter an album or artist"/>
         </div>
       </form>
-      <div>
-        <h3>Results for <span class="query">{{ query }}</span></h3>
-      </div>
     </header>      
-
-    <section id="results" class="gallery-grid">
+ 
+    <section id="results" class="gallery-grid" ng-show="query" >
       <section id="artistsFound" ng-show="results.artists.items" class="one-half">
-        <h3>Artists that match <span class="query">{{ query }}</span></h3>
+        <!-- <h3>Artists that match <span class="query">{{ query }}</span></h3> -->
         <div ng-repeat="result in results.artists.items" class="one-third">
           <img ng-src="{{result.images[0].url}}" class="cover">
           {{ result.name }}
         </div>
       </section>
-
+ 
       <section id="albumsFound" ng-show="results.albums.items" class="one-half">
-        <h3>Albums that match <span class="query">{{ query }}</span></h3>
+        <!-- <h3>Albums that match <span class="query">{{ query }}</span></h3> -->
         <div ng-repeat="result in results.albums.items" class="one-third">
           <img ng-src="{{result.images[0].url}}" class="cover">
           {{ result.name }}
         </div>
       </section>
-
+ 
     </section>    
   </div>
   <!-- End of Search Controller -->
 
+  <footer>
+    <!-- Team Info. -->
+  </footer> 
 </body>
 </html>
