@@ -32,7 +32,7 @@
  
     <section id="results" class="gallery-grid" ng-show="query" >
       <section id="artistsFound" ng-show="results.artists.items" class="one-half">
-        <!-- <h3>Artists that match <span class="query">{{ query }}</span></h3> -->
+        <h3 class="raleway">Artists found</h3>
         <div ng-repeat="result in results.artists.items" class="one-third">
           <img ng-src="{{result.images[0].url}}" class="cover">
           {{ result.name }}
@@ -40,7 +40,7 @@
       </section>
  
       <section id="albumsFound" ng-show="results.albums.items" class="one-half">
-        <!-- <h3>Albums that match <span class="query">{{ query }}</span></h3> -->
+        <h3 class="raleway">Albums found</h3>
         <div ng-repeat="result in results.albums.items" class="one-third">
           <img ng-src="{{result.images[0].url}}" class="cover">
           {{ result.name }}
