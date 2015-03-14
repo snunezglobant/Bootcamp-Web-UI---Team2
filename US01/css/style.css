@@ -80,7 +80,7 @@ h3.raleway {
   width: -webkit-calc(33.3333% - 16px);
   width: calc(33.3333% - 16px);
   margin: 8px;
-  height: 12rem;
+  height: relative;
   position: relative;
   float: left;
 }
@@ -90,7 +90,7 @@ h3.raleway {
   width: -webkit-calc(50% - 16px);
   width: calc(50% - 16px);
   margin: 8px;
-  height: auto;
+  height: 100%;
   position: relative;
   float: right;
 }
@@ -154,6 +154,12 @@ h3.raleway {
     width: 100%;
   }
   .center {
+    width: 100%;
+  }
+  #albumsFound {
+    width: 100%;
+  }
+  #artistsFound {
     width: 100%;
   }
 }
