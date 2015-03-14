@@ -89,8 +89,8 @@ h3.raleway {
   width: -moz-calc(50% - 16px);
   width: -webkit-calc(50% - 16px);
   width: calc(50% - 16px);
-  margin: 8px;
-  height: 100%;
+  margin: 15px;
+  height: relative;
   position: relative;
   float: right;
 }
