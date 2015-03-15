@@ -20,7 +20,7 @@ Before pushing that version, we will list the changes we made:
 
 <li> Then, we improved then, started the style viewing and started the routing behaviour.</li>
 
-<li> We also used many ng services, directives and even a factory inside an app js for clearing the code.</li>
+<li> We also used many ng services -we might use directives, and even a factory inside an app js for clearing the code.</li>
 
 </ol>
 
