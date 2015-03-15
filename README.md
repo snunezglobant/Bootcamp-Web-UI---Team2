@@ -1,5 +1,5 @@
 # Bootcamp-Web-UI-Team2 
-<img src="http://imageshack.com/a/img908/5662/shOnxO.png" width=224px height=64px />
+<img src="http://imageshack.com/a/img673/3048/pAO34E.png" width=224px height=64px />
 
   <ul>
     <li>Bazán, Rodrigo </li>
