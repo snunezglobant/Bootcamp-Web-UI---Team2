@@ -8,12 +8,11 @@
     <li>Navarro, Juan Pablo</li>
     <li>Roncedo, Gonzalo R.</li>
   <ul>
-  
-  <h1> Our Spotify searching app</h1>
 
-<h2>Laying the groundwork for versioning and coding</h2>
 
-<h3>Revisions before "Bootcamp WebUI Final Project Team2 version#1"</h3>
+##Laying the groundwork for versioning and coding
+
+###Revisions before "Bootcamp WebUI Final Project Team2 version#1"
 
 Before pushing that version, we will list the changes we made:
 
