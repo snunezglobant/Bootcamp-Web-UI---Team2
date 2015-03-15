@@ -7,6 +7,8 @@
     <li>Navarro, Juan Pablo</li>
     <li>Roncedo, Gonzalo R.</li>
   <ul>
+  
+  <h1> Searchify, our Spotify searching app</h1>
 
 <h2>Laying the groundwork for versioning and coding</h2>
 
