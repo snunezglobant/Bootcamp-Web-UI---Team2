@@ -1,0 +1,40 @@
+<div>
+      <ul>
+        <li>
+          <img ng-src="{{data.images[1].url}}" >
+          <h3>Name:{{data.name}}</h3>
+          <p>Pupularity:{{data.popularity}}</p>
+
+          <p>Genres:</p>
+          <p ng-repeat="genres in data.genres track by $index"> {{genres}}</p>
+
+
+        </li>
+      </ul>
+
+</div>
+
+<div>
+
+      <div >
+        <h1>Results for Albums:</h1>
+
+        <div ng-repeat="album in albums">
+
+          <img ng-src="{{album.images[2].url}}" alt="">
+         <a href="#/us5/{{album.id}}"> <p>Name:   {{album.name}} </p> </a>
+
+        </div>
+      </div>
+       <h1>Results for Related artists:</h1>
+
+        <div ng-repeat="artist in artistsr">
+
+          <img ng-src="{{artist.images[3].url}}" alt="">
+         <a href="#/us2/{{artist.id}}"> <p>Name:   {{artist.name}} </p></a>
+
+        </div>
+
+    </div>
+
+    
