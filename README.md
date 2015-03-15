@@ -26,7 +26,7 @@ NOW:
 
 <ul>
   <li>
-  Now, we are making the revisions of changes in separate branches, in order to not cross references until it was 
+    We are making the revisions of changes in separate branches, in order to not cross references until it was 
     neccesary.
   </li>
   
