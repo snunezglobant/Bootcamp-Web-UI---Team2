@@ -1,5 +1,5 @@
 # Bootcamp-Web-UI-Team2 
-<img src="http://imageshack.com/a/img633/9708/fVVSzW.png" />
+<img src="http://imageshack.com/a/img540/8408/pWKBR8.png" width=30% />
   <ul>
     <li>Bazán, Rodrigo </li>
     <li>Masclef, Gabriel</li>
@@ -7,7 +7,7 @@
     <li>Roncedo, Gonzalo R.</li>
   <ul>
 
-<h2>Laying the groundwork for versioning and application coding</h2>
+<h2>Laying the groundwork for versioning and coding</h2>
 
 <h3>Revisions before "Bootcamp WebUI Final Project Team2 version#1"</h3>
 
