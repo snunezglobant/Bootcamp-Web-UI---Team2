@@ -1,5 +1,5 @@
 
-# Bootcamp-Web-UI-Team2 
+# Bootcamp-Web-UI-Team2
 
 ![logo](assets/Team2Logo.png "Team 2's Searchify logo" )
 
@@ -25,7 +25,7 @@
 
 ##Laying the groundwork for versioning and coding
 
-###Revisions before "Bootcamp WebUI Final Project Team2 version#n", "..#n+1" and so on
+###Revisions before "Bootcamp WebUI Final Project Team2 version#n", "..#n+1" and so on...
 
 
 
