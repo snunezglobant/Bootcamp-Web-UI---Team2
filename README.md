@@ -1,3 +1,4 @@
+<body style="background-color:lightblue;">
 # Bootcamp-Web-UI-Team2 
 <img src="http://imageshack.com/a/img673/3048/pAO34E.png" width=224px height=64px />
 
@@ -39,3 +40,4 @@ NOW ---March 15, 2015 as we are writing:
   different topics and agree a version of the app.
   </li>
 </ul>
+</body>
