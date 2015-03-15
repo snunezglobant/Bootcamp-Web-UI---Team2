@@ -68,10 +68,7 @@ neccesary.
   
   
 
-     <li>
-  We will push incrementally, according to our meets, for an overall review in  order to avoid arguing of
-  different topics and to make a total agreement for a bearable version of the app.
-  </li>
+     <li> We will push incrementally, according to our meets, for an overall review in  order to avoid arguing of different topics and to make a total agreement for a bearable version of the app. </li>
 
 
 </ul>
