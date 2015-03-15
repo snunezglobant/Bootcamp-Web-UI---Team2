@@ -1,4 +1,5 @@
-# Bootcamp-Web-UI-Team2
+# Bootcamp-Web-UI-Team2 
+<img src="http://imageshack.com/a/img633/9708/fVVSzW.png" />
   <ul>
     <li>Bazán, Rodrigo </li>
     <li>Masclef, Gabriel</li>
