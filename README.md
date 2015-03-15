@@ -1,6 +1,6 @@
 <body style="background-color:lightblue;">
 # Bootcamp-Web-UI-Team2 
-![team logo](assets/Team2Logo.png "Team 2's Searchify logo")
+![team logo](assets/Team2Logo.png "Team 2's Searchify logo" width=20%)
 
   <ul>
     <li>Bazán, Rodrigo </li>
