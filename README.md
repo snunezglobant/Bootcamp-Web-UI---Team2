@@ -1,14 +1,18 @@
+
+# Bootcamp-Web-UI-Team2 
+
+![logo](assets/Team2Logo.png "Team 2's Searchify logo" )
+
   <ul>
     
 
-     <li>Bazán, Rodrigo </li>
+     <li> Bazán, Rodrigo </li>
     
 
-     <li>Masclef, Gabriel</li>
+     <li> Masclef, Gabriel</li>
     
 
-     <li>Navarro, Juan Pablo</li>
-    
+     <li> Navarro, Juan Pablo</li>
  
      <li>Roncedo, Gonzalo R.</li>
   
@@ -71,4 +75,3 @@ neccesary.
 
 
 </ul>
-
