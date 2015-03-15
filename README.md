@@ -5,8 +5,8 @@
     <li>Navarro, Juan Pablo</li>
     <li>Roncedo, Gonzalo R.</li>
   <ul>
-  
-#Revisions of the week before "Bootcamp WebUI Final Project Team2 version#1"
+
+<blockquote>Revisions of the week before "Bootcamp WebUI Final Project Team2 version#1"<blockquote>
 
 After pushing that version, we will list the changes we made:
 
