@@ -3,21 +3,21 @@
 
 ![logo](assets/Team2Logo.png "Team 2's Searchify logo" )
 
-  <ul>
-    
+   <ul>
 
-     <li> Bazán, Rodrigo </li>
-    
 
-     <li> Masclef, Gabriel</li>
-    
+   <li> Bazán, Rodrigo </li>
 
-     <li> Navarro, Juan Pablo</li>
- 
-     <li>Roncedo, Gonzalo R.</li>
-  
 
-  <ul>
+   <li> Masclef, Gabriel</li>
+
+
+   <li> Navarro, Juan Pablo</li>
+
+   <li>Roncedo, Gonzalo R.</li>
+
+
+ </ul>
 
 
 
