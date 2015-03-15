@@ -26,7 +26,7 @@ Before pushing that version, we will list the changes we made:
 
 </ol>
 
-NOW ---March 15, 2015 as we are writing:
+Now -March 15, 2015 as we are writing:
 
 <ul>
   <li>
