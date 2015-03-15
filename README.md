@@ -1,5 +1,5 @@
 # Bootcamp-Web-UI-Team2 
-<img src="http://imageshack.com/a/img540/8408/pWKBR8.png" width=30% />
+<img src="http://imageshack.com/a/img908/5662/shOnxO.png" width=2rem height=2rem />
   <ul>
     <li>Bazán, Rodrigo </li>
     <li>Masclef, Gabriel</li>
