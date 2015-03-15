@@ -1,6 +1,6 @@
 <body style="background-color:lightblue;">
 # Bootcamp-Web-UI-Team2 
-![the logo](assets/Team2Logo.png "The platform")
+(assets/Team2Logo.png "The logo")
 
   <ul>
     <li>Bazán, Rodrigo </li>
