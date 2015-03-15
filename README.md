@@ -2,6 +2,11 @@
 # Bootcamp-Web-UI-Team2 
 ![logo](assets/Team2Logo.png  "Team 2's Searchify logo" )
 
+img[alt="logo"] { 
+  max-width:  224px;
+  max-height: 64px; 
+}
+
   <ul>
     <li>Bazán, Rodrigo </li>
     <li>Masclef, Gabriel</li>
