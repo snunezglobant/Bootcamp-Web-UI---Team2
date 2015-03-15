@@ -12,9 +12,9 @@
 
 ##Laying the groundwork for versioning and coding
 
-###Revisions before "Bootcamp WebUI Final Project Team2 version#1"
+###Revisions before "Bootcamp WebUI Final Project Team2 version#1"..#2 and so on
 
-Before pushing that version, we will list the changes we made:
+Before pushing any version, we will list the changes we made:
 
 <ol>
 
