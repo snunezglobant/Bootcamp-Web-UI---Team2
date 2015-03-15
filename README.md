@@ -6,7 +6,7 @@
     <li>Roncedo, Gonzalo R.</li>
   <ul>
 
-<h1>Laying the groundwork for versioning and application coding</h1>
+<h2>Laying the groundwork for versioning and application coding</h2>
 
 <h3>Revisions before "Bootcamp WebUI Final Project Team2 version#1"</h3>
 
