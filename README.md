@@ -12,7 +12,7 @@
 
 <h3>Revisions before "Bootcamp WebUI Final Project Team2 version#1"</h3>
 
-After pushing that version, we will list the changes we made:
+Before pushing that version, we will list the changes we made:
 
 <ol>
 
