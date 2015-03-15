@@ -35,8 +35,8 @@ Now -March 15, 2015 as we are writing:
   </li>
   
   <li>
-  We will push incrementally, according to our meets, for a review in overall in order to avoid arguing of
-  different topics and agree a version of the app.
+  We will push incrementally, according to our meets, for an overall review in  order to avoid arguing of
+  different topics and to a total agreement for a bearable version of the app.
   </li>
 </ul>
 </body>
