@@ -1,5 +1,11 @@
 # Bootcamp-Web-UI---Team2
 
+
+##Laying the groundwork for versioning and coding
+
+###Revisions before "Bootcamp WebUI Final Project Team2 version#n", "..#n+1" and so on
+
+
   <ul>
 
      <li>Bazán, Rodrigo </li>
@@ -11,14 +17,6 @@
      <li>Roncedo, Gonzalo R.</li>
   
   <ul>
-
-
-
-
-
-##Laying the groundwork for versioning and coding
-
-###Revisions before "Bootcamp WebUI Final Project Team2 version#n", "..#n+1" and so on
 
 
 
