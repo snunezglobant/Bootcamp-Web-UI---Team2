@@ -47,7 +47,7 @@ Before pushing any version, we will list the changes we made:
 
   
 
-<li> We also used many ng services -we might use directives, and even a factory inside an app js for clearing the code.</li>
+<li> We also used many ng's -we might use directives, but we used services and promises inside an app js for clearing the code.</li>
 
 
 
