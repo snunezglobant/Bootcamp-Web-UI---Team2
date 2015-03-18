@@ -31,7 +31,7 @@
 
 
 
-Before pushing any version, we will list the changes we made:
+We pushed the app, and:
 
 
 
@@ -39,11 +39,11 @@ Before pushing any version, we will list the changes we made:
 
   
 
-<li> We created the first templates of every requirement, according to the chore.</li>
+<li> Tested the  functionality until it fitted our demands.</li>
 
-  
+</li> Validated the code -every piece of it.</li>  
 
-<li> Then, we improved then, started the style viewing and started the routing behaviour.</li>
+<li> Improved and finished the style viewing and the routing behaviour.</li>
 
   
 
