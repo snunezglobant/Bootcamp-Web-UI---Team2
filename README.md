@@ -23,7 +23,7 @@
 
 
 
-##Laying the groundwork for versioning and coding
+##Groundwork finished
 
 ###Revisions of the final version of "Bootcamp WebUI Final Project Team2" (Searchify):
 
