@@ -47,7 +47,7 @@ We pushed the app, and:
 
   
 
-<li> We also use many ng's for validations, iterating the endpoints results and also over object properties of that results, control the routing and the expected getting of that data and finally to make the code clean.</li>
+<li> We also used many ng's for validations, iterating the endpoints results and also over object properties of that results, in order to control the routing and the expected getting of that data. Finally, we made the code cleaner.</li>
 
 
 
@@ -58,20 +58,6 @@ We pushed the app, and:
 Now -March 18, 2015 as we are writing:
 
   
-
-<ul>
-  
-  
-     <li> 
-         We are pushing the app, and still changing details until twelve noon of today
-     </li>
-     
-     <li> We made the templates, corrected, improved the routing behaviour, improved the visual behaviour, improve
-          some data issues, and finally uploaded the result
-      </li>
-
-</ul>
-
 
 We made it.
  <blockquote>joke.txt:
