@@ -47,7 +47,7 @@ We pushed the app, and:
 
   
 
-<li> We also used many ng's -we might use directives, but we used services and promises inside an app js for clearing the code.</li>
+<li> We also use many ng's for validations, iterating the endpoints results and also over object properties of that results, control the routing and the expected getting of that data and finally to make the code clean.</li>
 
 
 
