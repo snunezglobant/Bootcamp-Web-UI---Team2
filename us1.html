@@ -1,0 +1,67 @@
+<!-- Home Page -->
+
+<!-- Logo and input -->
+<div id="searchWrapper">
+  <header class='center' ng-class="{goUp: query}">
+    <h1 class="lobster">Searchify</h1>
+    <h2 class="raleway">Where people meets music.</h2>
+    <form name="searchForm">
+      <div id="searchBox">          
+        <input id="querySearch" ng-model="query" autofocus ng-change="request()" name="input" type="text" class="form-control raleway" placeholder="Enter an album or artist"/>
+      </div>
+    </form>
+  </header>      
+  <!-- End of Logo and input -->
+
+  <!-- Results Section -->
+  <section id="results" class="gallery-grid" ng-show="query" >
+
+    <!-- Artists Found -->
+    <section id="artistsFound" ng-show="results.artists.items" class="one-half">
+      <div ng-switch on="results.artists.items.length">
+        <h3 ng-switch-when="0" class="thisway">No artists found</h3>
+        <h3 ng-switch-default="results.artists.items.length!='0'" class="thisway">Artists found</h3>
+      </div>
+      <div ng-repeat="result in results.artists.items" class="one-third">
+        <a href="#/us2/{{result.id}}"><div class="linkResult"> 
+          <div ng-if="result.images.length!='0'">
+            <img ng-src="{{result.images[0].url}}" class="cover">
+          </div>      
+          <div ng-if="result.images.length=='0'">
+            <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+          </div>
+          <div class="resultName lato" id="artist-name">
+            {{ result.name }}
+          </div>
+        </div></a>
+      </div>
+    </section>
+    <!-- End of Artists Found -->
+
+    <!-- Albums Found -->
+    <section id="albumsFound" ng-show="results.albums.items" class="one-half">
+      <div ng-switch on="results.albums.items.length">
+        <h3 ng-switch-when="0" class="thisway">No albums found</h3>
+        <h3 ng-switch-default="results.albums.items.length!='0'" class="thisway">Albums found</h3>
+      </div>
+      <div ng-repeat="result in results.albums.items" class="one-third">
+        <a href="#/us5/{{result.id}}">
+          <div class="linkResult">
+            <div ng-if="result.images.length!='0'">
+              <img ng-src="{{result.images[0].url}}" class="cover">
+            </div>
+            <div ng-if="result.images.length=='0'">
+              <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+            </div>
+            <div class="resultName lato">
+              {{ result.name }}
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- End of Albums Found -->
+
+  </section>
+  <!-- End of Results Section -->    
+</div>

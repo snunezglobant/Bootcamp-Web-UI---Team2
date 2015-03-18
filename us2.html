@@ -1,0 +1,69 @@
+<!-- Artist Page -->
+
+<!-- Header with the name of the artist -->
+<header class="lato">
+  <div class="title">
+    <h1>{{ data.name }} <span class="descriptor">(Artist)</span></h1>
+  </div>
+</header>
+<!-- End of Header -->
+
+<!-- Artist Info. -->
+<section id="artistInfo" class="one-half lato">
+  <section id="artist-container">
+    <div class="img-container" ng-if="data.images.length!='0'">
+      <img ng-src="{{data.images[1].url}}" >
+    </div>
+    <div ng-if="data.images.length=='0'">
+       <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+    </div>
+
+
+<div id="artist-description">
+      <div><span class="bolded">Popularity: </span>{{ data.popularity }}</div>
+      <span class="bolded">Genres:</span>
+      <span ng-repeat="genres in data.genres track by $index">
+        <span>| {{ genres }} |</span>        
+      </span>
+      <span ng-if="data.genres.length=='0'">Not genres found.</span>
+    </div>
+  </section>   
+</section>
+<!-- End of Artist Info. -->
+
+<!-- Artists Albums -->
+<section id="artistAlbums" class="one-half lato">
+  <h3>Albums:</h3>
+  <div ng-repeat="album in albums" class="one-third">
+    <a href="#/us5/{{album.id}}"><div class="album">
+      <img ng-src="{{album.images[0].url}}" alt="">
+      <div class="resultName lato">{{ album.name }}</div>      
+    </div></a>
+  </div>
+</section>
+<!-- End of Artists Albums -->
+
+<!-- Related Artists -->
+<section id="relatedArtists">
+  <h3>Related artists:</h3>
+  <div ng-if="$index<'5'" ng-repeat="artist in artistsr track by $index" class="related lato">  
+    <div ng-if="artist.length!='0'">
+      <a href="#/us2/{{artist.id}}">
+        <div class="related-container">  
+          <div class="img-container" ng-if="artist.images.length!='0'">            
+            <img ng-src="{{artist.images[1].url}}" alt="" class="cover">
+          </div>
+          <div class="img-container" ng-if="artist.images.length=='0'">            
+            <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+          </div>
+          <div id="related-name" class="resultName lato">{{ artist.name }}</div>
+        </div>
+      </a>
+    </div>
+    <div ng-if="artist.length=='0'">
+      <h3>No results found.</h3>
+    </div>
+  </div>
+</section>
+<!-- End of Related Artists -->
+

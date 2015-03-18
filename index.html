@@ -1,48 +1,46 @@
+<!-- Team 2 (Rocks!) : | Gabriel Masclef | Rodrigo Bazán | Gonzalo Roncedo | Juan Pablo Navarro | -->
+ 
 <!DOCTYPE html>
-<html lang="en" ng-app="spotifyApp">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Spotify Search | Topic01</title>
-  </head>
-  <body>
-    <div class="container" role="main">
-    	<h1>Spotify Search <small>topic01</small></h1>
-  		<form name="searchForm" ng-controller="SearchController as searchCtrl">
-  			<div class="form-group">
-  				<div class="row">
-  					<div>
-              <select class="form-control" ng-init="selectedItem = endpoints[0]" ng-model="selectedItem" ng-options="endpoint as endpoint.name for endpoint in endpoints"></select>
-  					</div>
-  					<div>
-  						<input ng-model="searchTerm" name="input" type="text" class="form-control" />
-  					</div>
-            <div>
-              <h3>Searching for {{selectedItem.name}}...</h3>
-            </div>
-  					<div ng-repeat="result in results.artists.items">
-              {{result.name}} <br>
-                <img ng-src="{{result.images[0].url}}" class="cover">
-            </div>
-            <div ng-repeat="result in results.tracks.items">
-              {{result.name}}
-            </div>
-            <div ng-repeat="result in results.albums.items">
-              {{result.name}}
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-             <img ng-src="{{result.images[0].url}}" class="cover"> 
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Searchify | Web UI Bootcamp Project | Globant 2015</title>
+ 
 
-            </div>
-  				</div>
-  			</div>
-  		</form>
-    </div>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+  <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+
+
+   
+</head>
+
+<body>
+  <!-- Header with Searchify logo in white -->
+  <header class="header">
+      <a href="#/" class="lobster-bar" id="logo-header">Searchify</a>
+  </header>
+  <!-- End of Header-->
+
+  <!-- View -->
+  <section class="main">
+    <div class="view" ng-view></div>
+  </section>
+  <!-- End of View -->
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.3.14/angular-route.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.7/angular-filter.js"></script>
+  <script src="lib/js/app.js"></script>
+  <script src="controllers.js"></script>
+</body>
 </html>
+<!-- The End -->

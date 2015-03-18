@@ -1,0 +1,45 @@
+<!-- Album Page -->
+
+<!-- Header with the title of the album -->
+<header class="lato">
+  <div class="album-title">
+    <h1>{{ album.name }} <span class="descriptor">(Album)</span></h1>
+  </div>
+</header>
+<!-- End of Header -->
+  
+  <div class="one-half album-cover">
+    <img ng-src="{{album.images[0].url}}">      
+  </div>
+  
+  <section id="details" class="one-half lato">
+    <section id="album-details" class="lato">
+      <h2>Album details:</h2>
+    <div ng-repeat="artist in album.artists">
+      <span class="bolded">Artist:</span><a href="#/us2/{{artist.id}}"> {{ artist.name }}</a>
+    </div>
+    <div><span class="bolded">Genre:</span>
+      <span ng-if="album.genres.length=='0'">
+        Genre not found
+      </span>
+      <span ng-if="album.genres.length!='0'">
+        {{ album.genres }}
+      </span>
+      <div class="bolded">Popularity: {{ album.popularity }}</div>
+      <div class="bolded">Release date: {{ album.release_date | date }}</div> 
+    </div>
+  </section>
+    <div id="track-list">
+     <h3>Track List:</h3>
+      <div ng-repeat="(key,value) in tracks | groupBy: 'disc_number'">
+        <h4 ng-if="disc2>'0'">Disc {{key}}</h4>
+        <div ng-repeat="track in value"> 
+          <div id="track">
+            {{track.track_number}}) {{track.name}}
+            <span>({{track.duration_ms | date : 'mm:ss'}})</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End of Album Wrapper -->
