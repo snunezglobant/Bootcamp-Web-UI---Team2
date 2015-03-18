@@ -67,7 +67,7 @@ Now -March 18, 2015 as we are writing:
      </li>
      
      <li> We made the templates, corrected, improved the routing behaviour, improved the visual behaviour, improve
-          some data issues, and finally uploaded the result
+          some data issues, and finally uploaded the results...
       </li>
 
 </ul>
