@@ -41,7 +41,7 @@ We pushed the app, and:
 
 <li> Tested the  functionality until it fitted our demands.</li>
 
-</li> Validated the code -every piece of it.</li>  
+<li> Validated the code -every piece of it.</li>  
 
 <li> Improved and finished the style viewing and the routing behaviour.</li>
 
