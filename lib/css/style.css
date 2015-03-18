@@ -2,6 +2,11 @@
   height: 100%;
 }
 
+.not-found .lobster {
+  margin-bottom: 2rem;
+  font-size: 50px;
+}
+
 *{
   line-height: 2rem;
 }
@@ -9,10 +14,10 @@
 .lobster {
   font-family: 'Lobster', 'Arial, Helvetica';
   font-size: 70px;
-  color: #27AE60;
+  color: rgb(39,174,96);
 }
 
-#bieberImg{
+#bieber-img{
   width: 200px;
   height: auto;
 }
@@ -20,7 +25,7 @@
 #logo-header {
   font-family: 'Lobster', cursive;
   font-size: 30px;
-  color: #FFFFFF;
+  color: rgb(255,255,255);
   text-decoration: none;
   padding-left: 3px;
   padding-top: auto;
@@ -30,7 +35,7 @@
 
 .header {
   margin: 0 auto 0 auto;
-  background-color: #27AE60;
+  background-color: rgb(39,174,96);
   text-align: left;
   height: 40px;
 }
@@ -55,18 +60,18 @@ input {
   font-family: Verdana;
   color: green;
   text-align: left;
-  background-color: #D2E2D8;
+  background-color: rgb(210,226,216);
 }
 
 
 .raleway {
   font-family: 'Raleway', sans-serif;
-  color: #01AEA1;
+  color: rgb(1,174,161);
 }
 
 .thisway{
   text-transform: uppercase;
-  color: #98b39a;
+  color: rgb(152,179,154);
   padding-left: 1rem;
 }
 
@@ -76,26 +81,26 @@ input {
 
 a {
   text-decoration: none;
-  color: #93baa5;
+  color: rgb(147,186,165);
 }
 
 a:hover{
   text-decoration: underline;
-  color: #98b39a;
+  color: rgb(147,186,165);
 }
 
 a.lobster-bar {
   text-decoration: none;
-  color: #27AE60;
+  color: rgb(39,174,96);
 }
 
 html  {
-  background-color: #ECF0F1;
+  background-color: rgb(236,240,241);
 }
 
 h3.raleway {
   text-align: center;
-  color: #7F8C8D;
+  color: rgb(127,140,141);
 }
 
 *, *:before, *:after {
@@ -106,7 +111,7 @@ h3.raleway {
 
 .gallery-grid {
   clear: both;
-  background: #d2e2d8;
+  background: rgb(210,226,216);
   display: block;
   float: left;
   width: 100%;
@@ -121,7 +126,7 @@ h3.raleway {
 }
 
 .one-third {
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px rgb(116,116,116);
   width: -moz-calc(33.3333% - 16px);
   width: -webkit-calc(33.3333% - 16px);
   width: calc(33.3333% - 16px);
@@ -130,7 +135,7 @@ h3.raleway {
   position: relative;
   vertical-align: bottom;
   display: inline-block;
-  background-color: #333333;
+  background-color: rgb(51,51,51);
 }
 
 .cover {
@@ -138,7 +143,7 @@ h3.raleway {
 }
 
 .lato.resultName {
-  color: white;
+  color: rgb(255,255,255);
 }
 
 .resultName { 
@@ -150,11 +155,11 @@ h3.raleway {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  background-color: #27AE60;
+  background-color: rgb(39,174,96);
 }
 
 #artist-name {
-  background-color: #01AEA1;
+  background-color: rgb(1,174,161);
 }
 
 .linkResult {
@@ -185,12 +190,12 @@ h3.raleway {
 /* (Album) or (Artist) */
 .descriptor {
   font-family: Lato;
-  color: #93baa5;
+  color: rgb(147,186,165);
 }
 
 /* Related Artists in Artist Page */
 .related {
-  box-shadow: 10px 10px 5px #888888; 
+  box-shadow: 10px 10px 5px rgb(116,116,116); 
   width: -moz-calc(20% - 16px);
   width: -webkit-calc(20% - 16px);
   width: calc(20% - 16px);
@@ -199,12 +204,12 @@ h3.raleway {
   position: relative;
   vertical-align: bottom;
   display: inline-block;
-  background-color: #01AEA1;
+  background-color: rgb(1,174,161);
   text-align: center;
 }
 
 #related-name{
-  background-color: #01AEA1;
+  background-color: rgb(1,174,161);
 }
 
 .related img {
@@ -222,7 +227,7 @@ h3.raleway {
 }
 
 #artist-container img {
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px rgb(116,116,116);
   width: 300px;
   height: auto;
 }
@@ -233,7 +238,7 @@ h3.raleway {
 
 
 .related-container {
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px rgb(116,116,116);
 }
 
 #artist-description {
@@ -244,7 +249,7 @@ h3.raleway {
 .album {
   width: 100%;
   height: auto;
-  background-color: #27AE60;
+  background-color: rgb(39,174,96);
 }
 
 .album img {
@@ -269,7 +274,7 @@ h3.raleway {
 }
 
 .album-cover img {
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px rgb(116,116,116);
   width: 420px;
   height: auto;
   margin-top: 45px;
@@ -333,24 +338,24 @@ h3.raleway {
     text-align: center;
   }
   .related {
-  box-shadow: 10px 10px 5px #888888; 
-  width: -moz-calc(100% - 16px);
-  width: -webkit-calc(100% - 16px);
-  width: calc(100% - 16px);
-  margin: 8px;
-  height: relative;
-  position: relative;
-  vertical-align: bottom;
-  display: inline-block;
-  background-color: #01AEA1;
-  text-align: center;
-  max-width: 200px;
-}
-.related-container {
-  box-shadow: 10px 10px 5px #888888;
-  max-width: 200px;
+    box-shadow: 10px 10px 5px rgb(116,116,116); 
+    width: -moz-calc(100% - 16px);
+    width: -webkit-calc(100% - 16px);
+    width: calc(100% - 16px);
+    margin: 8px;
+    height: relative;
+    position: relative;
+    vertical-align: bottom;
+    display: inline-block;
+    background-color: rgb(1,174,161);
+    text-align: center;
+    max-width: 200px;
+  }
+  .related-container {
+    box-shadow: 10px 10px 5px rgb(116,116,116);
+    max-width: 200px;
 
-}  
+  }  
 }
 
 /* Small Devices */
@@ -398,27 +403,27 @@ h3.raleway {
   .track {
     text-align: center;
   }
-    .related {
-  box-shadow: 10px 10px 5px #888888; 
-  width: -moz-calc(100% - 16px);
-  width: -webkit-calc(100% - 16px);
-  width: calc(100% - 16px);
-  margin: 8px;
-  height: relative;
-  position: relative;
-  vertical-align: bottom;
-  display: block;
-  background-color: #01AEA1;
-  text-align: center;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.related-container {
-  box-shadow: 10px 10px 5px #888888;
-  max-width: 200px;
+  .related {
+    box-shadow: 10px 10px 5px rgb(116,116,116); 
+    width: -moz-calc(100% - 16px);
+    width: -webkit-calc(100% - 16px);
+    width: calc(100% - 16px);
+    margin: 8px;
+    height: relative;
+    position: relative;
+    vertical-align: bottom;
+    display: block;
+    background-color: rgb(1,174,161);
+    text-align: center;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .related-container {
+    box-shadow: 10px 10px 5px rgb(116,116,116);
+    max-width: 200px;
 
-}  
+  }  
 }
 
 /* X-Small Devices */

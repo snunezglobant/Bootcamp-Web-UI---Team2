@@ -15,7 +15,6 @@
 
   <!-- Results Section -->
   <section id="results" class="gallery-grid" ng-show="query" >
-
     <!-- Artists Found -->
     <section id="artistsFound" ng-show="results.artists.items" class="one-half">
       <div ng-switch on="results.artists.items.length">
@@ -23,17 +22,19 @@
         <h3 ng-switch-default="results.artists.items.length!='0'" class="thisway">Artists found</h3>
       </div>
       <div ng-repeat="result in results.artists.items" class="one-third">
-        <a href="#/us2/{{result.id}}"><div class="linkResult"> 
-          <div ng-if="result.images.length!='0'">
-            <img ng-src="{{result.images[0].url}}" class="cover">
-          </div>      
-          <div ng-if="result.images.length=='0'">
-            <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+        <a href="#/us2/{{result.id}}">
+          <div class="linkResult"> 
+            <div ng-if="result.images.length!='0'">
+              <img ng-src="{{result.images[0].url}}" class="cover">
+            </div>      
+            <div ng-if="result.images.length=='0'">
+              <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+            </div>
+            <div class="resultName lato" id="artist-name">
+              {{ result.name }}
+            </div>
           </div>
-          <div class="resultName lato" id="artist-name">
-            {{ result.name }}
-          </div>
-        </div></a>
+        </a>
       </div>
     </section>
     <!-- End of Artists Found -->
@@ -61,7 +62,6 @@
       </div>
     </section>
     <!-- End of Albums Found -->
-
   </section>
   <!-- End of Results Section -->    
 </div>

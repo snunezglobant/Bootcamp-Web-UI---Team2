@@ -15,11 +15,11 @@
       <img ng-src="{{data.images[1].url}}" >
     </div>
     <div ng-if="data.images.length=='0'">
-       <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
+      <img ng-src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Empty_set.svg" class="cover">
     </div>
 
 
-<div id="artist-description">
+    <div id="artist-description">
       <div><span class="bolded">Popularity: </span>{{ data.popularity }}</div>
       <span class="bolded">Genres:</span>
       <span ng-repeat="genres in data.genres track by $index">
@@ -35,10 +35,12 @@
 <section id="artistAlbums" class="one-half lato">
   <h3>Albums:</h3>
   <div ng-repeat="album in albums" class="one-third">
-    <a href="#/us5/{{album.id}}"><div class="album">
-      <img ng-src="{{album.images[0].url}}" alt="">
-      <div class="resultName lato">{{ album.name }}</div>      
-    </div></a>
+    <a href="#/us5/{{album.id}}">
+      <div class="album">
+        <img ng-src="{{album.images[0].url}}" alt="">
+        <div class="resultName lato">{{ album.name }}</div>      
+      </div>
+    </a>
   </div>
 </section>
 <!-- End of Artists Albums -->
@@ -66,4 +68,3 @@
   </div>
 </section>
 <!-- End of Related Artists -->
-
