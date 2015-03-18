@@ -25,7 +25,7 @@
 
 ##Laying the groundwork for versioning and coding
 
-###Revisions before "Bootcamp WebUI Final Project Team2 version#n", "..#n+1" and so on...
+###Revisions of the final version of "Bootcamp WebUI Final Project Team2" (Searchify):
 
 
 
