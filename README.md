@@ -74,11 +74,12 @@ Now -March 18, 2015 as we are writing:
 
 
 We made it.
- 
- ```joke.txt
-   Q: What did the butcher say when he backed into the meat-grinder?
-   A: Looks like I'm getting a little behind in my work!
- ```
+ <blockquote>joke.txt:
+    ```joke.txt
+      Q: What did the butcher say when he backed into the meat-grinder?
+      A: Looks like I'm getting a little behind in my work!
+    ```
+ </blockquote>
  ```git
   
   git add joke.txt
