@@ -79,5 +79,7 @@ We made it.
  
   git commit -m "It seems to us that, at least"
   
-   ```
+  git push origin the_joking_master
+  
+  ```
  
