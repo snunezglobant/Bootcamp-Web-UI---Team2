@@ -47,7 +47,7 @@ We pushed the app, and:
 
   
 
-<li> We also used many ng's for validations, iterating the endpoints results and also over object properties of that results, control the routing and the expected getting of that data and finally to make the code clean.</li>
+<li> We also used many ng's for validations, iterating the endpoints results and also over object properties of that results, in order to control the routing and the expected getting of that data and finally  make the code cleaner.</li>
 
 
 
