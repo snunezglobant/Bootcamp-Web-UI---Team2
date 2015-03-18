@@ -73,4 +73,8 @@ Now -March 18, 2015 as we are writing:
 </ul>
 
 
-Update: We made it. Don't tell Justin Bieber yet.
+We made it.
+
+ " git commit -m "It seems to us that, at least" "
+  
+ 
