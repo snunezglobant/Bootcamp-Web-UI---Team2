@@ -55,23 +55,22 @@ Before pushing any version, we will list the changes we made:
 
 
 
-Now -March 15, 2015 as we are writing:
+Now -March 18, 2015 as we are writing:
 
   
 
 <ul>
   
   
-     <li> We are making the revisions of changes in separate branches, in order to not cross references until it was 
-neccesary.
-  </li>
-  
-  
-
-     <li> We will push incrementally, according to our meets, for an overall review in  order to avoid arguing of different topics and to make a total agreement for a bearable version of the app. </li>
-
+     <li> 
+         We are pushing the app, and still changing details until twelve noon of today
+     </li>
+     
+     <li> We made the templates, corrected, improved the routing behaviour, improved the visual behaviour, improve
+          some data issues, and finally uploaded the result
+      </li>
 
 </ul>
 
 
-Update: Shortly, we will push the version.
+Update: We made it. Don't tell Justin Bieber yet.
