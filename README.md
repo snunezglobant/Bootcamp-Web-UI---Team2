@@ -74,7 +74,10 @@ Now -March 18, 2015 as we are writing:
 
 
 We made it.
-
- " git commit -m "It seems to us that, at least" "
+ 
+ ```git
+ 
+  git commit -m "It seems to us that, at least"
   
+   ```
  
