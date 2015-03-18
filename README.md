@@ -59,20 +59,6 @@ Now -March 18, 2015 as we are writing:
 
   
 
-<ul>
-  
-  
-     <li> 
-         We are pushing the app, and still changing details until twelve noon of today
-     </li>
-     
-     <li> We made the templates, corrected, improved the routing behaviour, improved the visual behaviour, improve
-          some data issues, and finally uploaded the results...
-      </li>
-
-</ul>
-
-
 We made it.
  <blockquote>joke.txt:
     ```
