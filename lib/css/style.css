@@ -431,12 +431,56 @@ h3.raleway {
   #searchWrapper {
     width: 100%;
   }
-  .center {
-    width: 100%;
-  }
+  
   .album-cover img {
     width: 300px;
     height: auto;
+    display: table;
+    margin: 0 auto;
+    max-width: 300px;
+  }  
+  .center {
+    width: 100%;
+  }
+  .album-cover {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  
+  #details {
+    width: 100%;
+  }
+  #album-details {
+    text-align: center;
+  }
+  #track-list {
+    width: 100%;
+    text-align: center;
+  }
+  .track {
+    text-align: center;
+  }
+  .album-title {
+    text-align: center;
+  }
+  .related {
+    box-shadow: 10px 10px 5px rgb(116,116,116); 
+    width: -moz-calc(100% - 16px);
+    width: -webkit-calc(100% - 16px);
+    width: calc(100% - 16px);
+    margin: 8px;
+    height: relative;
+    position: relative;
+    vertical-align: bottom;
+    display: inline-block;
+    background-color: rgb(1,174,161);
+    text-align: center;
+    max-width: 200px;
+  }
+  .related-container {
+    box-shadow: 10px 10px 5px rgb(116,116,116);
+    max-width: 200px;
+
   }  
 }
 /* End of Styles */

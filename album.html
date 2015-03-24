@@ -16,7 +16,7 @@
     <section id="album-details" class="lato">
       <h2>Album details:</h2>
     <div ng-repeat="artist in album.artists">
-      <span class="bolded">Artist:</span><a href="#/us2/{{artist.id}}"> {{ artist.name }}</a>
+      <span class="bolded">Artist:</span><a href="#/artist/{{artist.id}}"> {{ artist.name }}</a>
     </div>
     <div><span class="bolded">Genre:</span>
       <span ng-if="album.genres.length=='0'">

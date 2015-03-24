@@ -22,7 +22,7 @@
         <h3 ng-switch-default="results.artists.items.length!='0'" class="thisway">Artists found</h3>
       </div>
       <div ng-repeat="result in results.artists.items" class="one-third">
-        <a href="#/us2/{{result.id}}">
+        <a href="#/artist/{{result.id}}">
           <div class="linkResult"> 
             <div ng-if="result.images.length!='0'">
               <img ng-src="{{result.images[0].url}}" class="cover">
@@ -46,7 +46,7 @@
         <h3 ng-switch-default="results.albums.items.length!='0'" class="thisway">Albums found</h3>
       </div>
       <div ng-repeat="result in results.albums.items" class="one-third">
-        <a href="#/us5/{{result.id}}">
+        <a href="#/album/{{result.id}}">
           <div class="linkResult">
             <div ng-if="result.images.length!='0'">
               <img ng-src="{{result.images[0].url}}" class="cover">

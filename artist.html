@@ -35,7 +35,7 @@
 <section id="artistAlbums" class="one-half lato">
   <h3>Albums:</h3>
   <div ng-repeat="album in albums" class="one-third">
-    <a href="#/us5/{{album.id}}">
+    <a href="#/album/{{album.id}}">
       <div class="album">
         <img ng-src="{{album.images[0].url}}" alt="">
         <div class="resultName lato">{{ album.name }}</div>      
@@ -46,11 +46,11 @@
 <!-- End of Artists Albums -->
 
 <!-- Related Artists -->
-<section id="relatedArtists">
+<section id="related-artists">
   <h3>Related artists:</h3>
   <div ng-if="$index<'5'" ng-repeat="artist in artistsr track by $index" class="related lato">  
     <div ng-if="artist.length!='0'">
-      <a href="#/us2/{{artist.id}}">
+      <a href="#/artist/{{artist.id}}">
         <div class="related-container">  
           <div class="img-container" ng-if="artist.images.length!='0'">            
             <img ng-src="{{artist.images[1].url}}" alt="" class="cover">
